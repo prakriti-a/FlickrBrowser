@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Flickr Browser</string>
+    <string name="photo">Flickr Photo</string>
+    <string name="title_activity_photo_details">Photo Details</string>
+
+    <string name="photo_details_author">BY: %s</string>
+    <string name="photo_details_title">TITLE: %s</string>
+    <string name="photo_details_tags">TAGS: %s</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search photo tags...</string>
+    <string name="query_lang">en-us</string>
+    <string name="no_search_results">No photos match your search</string>
+    <!--    %1$s, %2$s...etc can be used to number multiple formatted strings in a res, helps in changing order of words in translated languages-->
+
+</resources>

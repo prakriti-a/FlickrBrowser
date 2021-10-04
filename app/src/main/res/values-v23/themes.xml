@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FlickrBrowser" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Additional -->
+        <item name="android:icon">@color/primaryLightColor</item>
+<!--        <item name="android:windowBackground">@color/secondaryLightColor</item>-->
+        <item name="android:colorBackgroundFloating">@color/secondaryLightColor</item>
+<!--        @android:color/... can be used to specify resources builtin in android namespace-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/primaryDarkColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <style name="Theme.FlickrBrowser.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="android:colorBackgroundFloating">@color/secondaryLightColor</item>-->
+<!--    </style>-->
+
+</resources>
+
+<!-- if attribute support is provided by a support library -> don't specify android: namespace-->
+<!--    if attribute support is provided by android framework -> specify android: namespace-->
+<!--    if attribute exists in both places & using support library -> don't use namespace-->
+<!--        not using support library -> namespace not needed as attribute exists in only one place-->

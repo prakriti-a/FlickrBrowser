@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="text">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edge">4dp</dimen>
+    <dimen name="margin_big">16dp</dimen>
+    <dimen name="text_small">18sp</dimen>
+    <dimen name="title">22sp</dimen>
+</resources>
